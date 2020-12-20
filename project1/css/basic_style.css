@@ -20,7 +20,7 @@ h1 {
       SELECT ALL SQUARES IN THE ARRAY
 -----------------------------------------------------------------*/
  .container .squares:nth-child(-n+4) {
- background-image: url("../images/icons/smileyface1.png")
+ background-image: url("../images/icons/smileyface1.png");
  color: #fff;
  float: left;
  width: 100px;
@@ -36,7 +36,7 @@ cursor: pointer;
 ----------------------------------------------------------------*/
 .squares:nth-child(-n+4) p{
     font-family: "Helvatica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
@@ -66,7 +66,7 @@ cursor: pointer;
          HOVER EFFECTS
 ----------------------------------------------------------------*/
 .container .squares:nth-child(-n+4):hover {
-background-image: url("../images/icons/smileyface1.png");
+background-image: url("../images/icons/smileyface2.png");
 transform: scale(.5);
 animation-name: race;
 animation-duration: 2.5s;
